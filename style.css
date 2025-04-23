@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 30px;
+}
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+#nome,#email {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+form button {
+    width: 160px;
+    padding: 10px 20px;
+    background-color: #418d4e;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#fechar{
+    background-color: #e74c3c;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+}
+#exibir {
+    background-color: #14BDE0;
+}
+ul {
+    margin-left: 85px;
+    padding-left: 0px;
+    align-content: center;
+    list-style-type: none;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    width: 330px;
+}
+ul li {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+ul li button {
+    float: right;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 6px;
+    margin-right: 10px;
+}
