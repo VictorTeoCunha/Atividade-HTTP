@@ -38,7 +38,10 @@ git clone https://github.com/seu-usuario/seu-repo.git
 ```
 ├── index.html         # Estrutura da interface
 ├── style.css          # Estilos visuais
-└── script.js          # Lógica de interação e integração com API
+├── Js
+    ├── app.js         # Lógica de interação e integração com API
+    ├── classes.js
+    └── utils.js      
 ```
 
 ## ⚠️ Observações
